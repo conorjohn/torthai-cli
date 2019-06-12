@@ -36,12 +36,14 @@ export async function createProject(options) {
     const templateDir = path.resolve(
         new URL(currentFileUrl).pathname,
         '../../templates',
-        options.template.toLowerCase()
+        options.template.toLowerCase(),
+        options.renderingEngine.toLowerCase()
     );
 
     let regex = /%20/g;
     let dir = templateDir.replace(regex, ' ').substring(3);
     options.templateDirectory = dir;
+    console.log('the options & directory', options);
 
     try {
         await access(dir, fs.constants.R_OK);
