@@ -12,3 +12,6 @@ Run `torthaí` and the following options will appear:
 * Jade
 * HandleBars
 
+> Initialise Git
+* Yes
+* No
