@@ -3,12 +3,12 @@ CLI to quickly bootstrap my own projects
 
 Run `torthaí` and the following options will appear: 
 > Template
-> TypeScript
-> JavaScript
+* TypeScript
+* JavaScript
 
 > Rendering Engine
-> EJS
-> PugJS
-> Jade
-> HandleBars
+* EJS
+* PugJS
+* Jade
+* HandleBars
 
